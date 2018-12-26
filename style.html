@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="d-up">
+    <div class="span-divLeft">
+        <span id="xxxx" class="el-span zoom">X</span>
+        <span id="piket-x" class="el-span">-</span>
+    </div>
+    <div class="span-divRight">
+        <span id="piket-o" class="el-span">-</span>
+        <span id="oooo" class="el-span zoom">O</span>
+    </div>
+</div>
+<div class="div-turn">
+    <span class="radha">x</span>
+    <span class="spn-turn">select player</span>
+</div>
+<div class="div-table">
+    <div class="inp-pht-x">
+        <label class="labe-inpt">
+            <img id="img-left" class="defould-img-x" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU2hv3c33Kg0OhhpS8psJmQ8QIpL3CEaFj9uc8OejHRyhzQ3D5">
+            <input id="file-photo-x" onchange="renderImageLeft(this.files[0])" class="hide-inpt-x" type="file" accept="image/*">
+        </label>
+        
+    </div>
+    <div class="divtableeee">
+        <table id="tab">
+            <tr>
+                <td class="All-TD"></td>
+                <td class="All-TD"></td>
+                <td class="All-TD"></td>
+            </tr>
+            <tr>
+                <td class="All-TD"></td>
+                <td class="All-TD"></td>
+                <td class="All-TD"></td>
+            </tr>
+            <tr id="tr-last">
+                <td class="All-TD"></td>
+                <td class="All-TD"></td>
+                <td class="All-TD"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="inp-pht-o">
+        <label class="labe-inpt">
+            <img id="img-right" class="defould-img-o" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU2hv3c33Kg0OhhpS8psJmQ8QIpL3CEaFj9uc8OejHRyhzQ3D5">
+            <input id="file-photo-o" onchange="renderImageRight(this.files[0])" class="hide-inpt-o" type="file" accept="image/*">
+        </label>
+    </div>
+</div>
+<div class="d-spn-res">
+    <span id="spn" class="span-restart">Restart Game</span>
+</div>
+<div class="d-spn-res">
+    <span class="span-reset" id="reset">Reset Game</span>
+</div>
+
+<script src="firework.js"></script>
+<script src="style.js"></script>
+</body>
+</html>
+
+
+
