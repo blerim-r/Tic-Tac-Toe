@@ -1,7 +1,10 @@
+// Firework Library
 
 
-
-// ky funksion shfaq fishekziarret ne divin winner
+/**
+ * Used to load fireworks on winner div
+ * @param divWinner
+ */
 function loadFireWork(divWinner){
 
     SCREEN_WIDTH = divWinner[0].innerWidth;
@@ -26,7 +29,7 @@ function loadFireWork(divWinner){
     setInterval(launch, 800);
     setInterval(loop, 1000 / 50);
 
-// update mouse position
+    // update mouse position
     divWinner.mousemove(function(e) {
         e.preventDefault();
         mousePos = {
@@ -35,7 +38,7 @@ function loadFireWork(divWinner){
         };
     });
 
-// launch more rockets!!!
+    // launch more rockets!!!
     divWinner.mousedown(function(e) {
         for (var i = 0; i < 5; i++) {
             launchFrom(Math.random() * SCREEN_WIDTH * 2 / 3 + SCREEN_WIDTH / 6);

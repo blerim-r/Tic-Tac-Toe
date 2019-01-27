@@ -22,7 +22,6 @@ table {
     font-size: x-large;
 }
 .div-table {
-    background: whitesmoke;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
