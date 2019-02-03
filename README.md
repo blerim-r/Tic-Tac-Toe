@@ -1,8 +1,9 @@
 # Tic-Tac-Toe
-Here you can find the online version of the code and try it
-https://codepen.io/brexhmati/full/aPgemz
+Tic-Tac-Toe Two player game
 
 ![lightgallery](https://raw.githubusercontent.com/bRexhmati/Tic-Tac-Toe/master/TicTacToe.png)
+
+* [Codepen demo](https://codepen.io/brexhmati/full/aPgemz)
 
 
 ## Main features
